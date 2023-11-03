@@ -21,7 +21,8 @@ variables:
   vmImageName: 'ubuntu-latest'
 
 pool:
-  name: marcel-Inspiron-15-3511
+  name: default
+  
   
 stages:
 - stage: Build
