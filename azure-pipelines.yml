@@ -20,6 +20,9 @@ variables:
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
+pool:
+  name: marcel-Inspiron-15-3511
+  
 stages:
 - stage: Build
   displayName: Build stage
