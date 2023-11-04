@@ -29,7 +29,7 @@ stages:
     displayName: Build
     pool:
       vmImage: $(vmImageName)
-      name: default
+      name: marcel-Inspiron-15-3511
 
     steps:
     - task: NodeTool@0
@@ -72,7 +72,7 @@ stages:
     environment: $(environmentName)
     pool:
       vmImage: $(vmImageName)
-      name: default
+      name: marcel-Inspiron-15-3511
     strategy:
       runOnce:
         deploy:
